@@ -1,62 +1,36 @@
 <html>
-<head>
-<meta property="og:url" content="http://ni.com" /> 
-<meta property="og:title" content="National Instruments" />
-<meta property="og:description" content="NI customers have brought hundreds of thousands of products to market, overcome innumerable technological roadblocks, and engineered a better life for us all.What feat of engineering will you tackle next?" /> 
-	<title></title>
-</head>
-<body>
-<div id="fb-root" ></div><script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '768764669870540',
-      xfbml      : true,
-      version    : 'v2.2'
-    });
-  };
-
-(function() {
-var e = document.createElement('script'); e.async = true;
-e.src = document.location.protocol +
-'//connect.facebook.net/en_US/all.js';
-document.getElementById('fb-root').appendChild(e);
-}());
-
-function share_me() {
-    FB.ui({
-      method: 'share',
-      app_id: '768764669870540',
-      href: 'ni.com',
-      picture: 'http://india.ni.com/sites/default/files/You%20and%20NI%20Will.jpg',
-      name: 'You and NI Will',
-        
-      description: 'NI customers have brought hundreds of thousands of products to market, overcome innumerable technological roadblocks, and engineered a better life for us all. What feat of engineering will you tackle next?'
-    },
-    function(response){
-      if(response && response.post_id) {
-       self.location.href = 'http://www.facebook.com'
-              }
-      else {
-        self.location.href = 'http://infinitebounce.com/ib_index.html'
-      }
-    });
-    function fbLogoutUser() {
-    FB.getLoginStatus(function(response) {
-        if (response && response.status === 'connected') {
-            FB.logout(function(response) {
-               self.location.href = 'http://www.facebook.com'
-            });
-        }
-    });
-}
-function Redirect_to_ni()
-{
-    window.location="http://infinitebounce.com/ib_index.html";
-}
-  }
-</script>
-<div style="text-align:center;">
-<div onclick="share_me()" style="margin-top:10px;"><img id="share_button2" src="http://icons.iconarchive.com/icons/danleech/simple/512/facebook-icon.png" style="width:25px;height:25px;" /></div>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
-</body>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<div id="fb-root">
+			&nbsp;</div>
+		<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=768764669870540&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+		<table align="center" border="0" cellpadding="1" cellspacing="1" style="width: 750px;">
+			<tbody>
+				<tr>
+					<td colspan="2">
+						<p>
+							<img alt="Happy New Year" border="0" src="http://infinitebounce.com/fb-tab-hny.jpg" style="width: 750px; height: 200px;" /></p>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="fb-like-box" data-colorscheme="light" data-header="true" data-href="https://www.facebook.com/NatInstIndia" data-show-border="true" data-show-faces="true" data-stream="false">
+							&nbsp;</div>
+					</td>
+					<td>
+						2</td>
+				</tr>
+			</tbody>
+		</table>
+		<p>
+			&nbsp;</p>
+	</body>
 </html>
